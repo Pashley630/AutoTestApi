@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suit name="thread" parallel="methods"  thread-count="2">
+    <!--
+    parallel 级别：
+    tests级别；test tag即name相同的 在一个线程执行
+    classes级别：同一个class下的用例在相同的线程执行
+    methods级别：所有用例在不同线程执行
+
+    thread-count：最大并发数
+
+    xml文件配置方式不能指定线程池，只有代码注解方式可以指定
+    -->
+    <test name ="demo1">
+        <classes name="test1">
+            <class name="com.pashley.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+</suit>

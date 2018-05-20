@@ -1,0 +1,21 @@
+[
+  {
+    "description":"这是一个重定向请求",
+    "request":{
+      "uri":"/redirect/topath",
+      "redirectTo": "/redirect/new"
+    }
+  },
+  {
+    "description":"这是被重定向的请求",
+    "request":{
+      "uri":"/redirect/new"
+    },
+    "response":{
+      "text":"redirect success~~"
+    }
+  }
+
+
+
+]

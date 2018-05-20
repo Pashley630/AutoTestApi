@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suit name="test">
+
+    <test name="login">
+        <classes>
+            <class name="com.pashley.testng.suit.SuitConfig"/>
+            <class name="com.pashley.testng.suit.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="pay">
+    <classes>
+        <class name="com.pashley.testng.suit.SuitConfig"/>
+        <class name="com.pashley.testng.suit.PayTestTest"/>
+    </classes>
+    </test>
+
+</suit>
